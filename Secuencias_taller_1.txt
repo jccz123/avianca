@@ -1,0 +1,62 @@
+/*PUNTO 8A  SECUENCIAS*/ 
+
+CREATE SEQUENCE SEC_PILOTOS
+  start with 1
+  increment by 1
+  maxvalue 99
+  minvalue 1;
+  GO
+  CREATE SEQUENCE SEC_EMPLEADOS
+  start with 100
+  increment by 1
+  maxvalue 199
+  minvalue 100;
+  GO
+  CREATE SEQUENCE SEC_AEROPUERTOS
+  start with 200
+  increment by 1
+  maxvalue 299
+  minvalue 200;
+  GO
+ CREATE SEQUENCE SEC_CONFIRMACION_VUELOS
+  start with 300
+  increment by 1
+  maxvalue 399
+  minvalue 300;
+  GO
+  CREATE SEQUENCE SEC_RUTAS
+  start with 400
+  increment by 1
+  maxvalue 499
+  minvalue 400;
+  GO
+  CREATE SEQUENCE SEC_AVIONES
+  start with 500
+  increment by 1
+  maxvalue 599
+  minvalue 500;
+  GO
+  CREATE SEQUENCE SEC_LOG_VUELOS
+  start with 600
+  increment by 1
+  maxvalue 699
+  minvalue 600;
+  GO
+  CREATE SEQUENCE SEC_CHECKINS
+  start with 700
+  increment by 1
+  maxvalue 799
+  minvalue 700;
+  GO
+  CREATE SEQUENCE SEC_PASAJEROS
+  start with 800
+  increment by 1
+  maxvalue 899
+  minvalue 800;
+  GO
+  CREATE SEQUENCE SEC_CIUDADES
+  start with 900
+  increment by 1
+  maxvalue 999
+  minvalue 900;
+  
